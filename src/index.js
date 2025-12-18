@@ -40,7 +40,7 @@ const PORT = process.env.PORT || 5000;
 // middlewares
 app.use(
   cors({
-    origin: ['http://localhost:5173','https://book-frontend-dvln.vercel.app'],
+    origin: ['http://localhost:5173','https://book-frontend-nrge.vercel.app'],
     credentials: true,
   })
 );
